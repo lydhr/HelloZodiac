@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloZodiac" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Lb-H8-MdE"/>
+                        <viewControllerLayoutGuide type="bottom" id="LIM-81-QH1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="center" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dsJ-hs-sSF">
+                                <rect key="frame" x="336" y="490" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="MLD-Xm-eYP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqW-IC-OeG">
+                                <rect key="frame" x="369" y="555" width="30" height="30"/>
+                                <state key="normal" title="Get"/>
+                                <connections>
+                                    <action selector="didClickedGet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abD-iQ-ikO"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6e1-mw-EhN">
+                                <rect key="frame" x="336" y="618" width="100" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="  Enter a number of year" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HoJ-fL-ozS">
+                                <rect key="frame" x="275" y="386" width="218" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dsJ-hs-sSF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="40v-PZ-FGf"/>
+                            <constraint firstItem="HoJ-fL-ozS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5tq-pw-sL0"/>
+                            <constraint firstItem="dsJ-hs-sSF" firstAttribute="top" secondItem="HoJ-fL-ozS" secondAttribute="bottom" constant="65" id="B7r-fS-dz2"/>
+                            <constraint firstItem="6e1-mw-EhN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ex9-5g-Q30"/>
+                            <constraint firstItem="dsJ-hs-sSF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mkx-hP-mEG"/>
+                            <constraint firstItem="6e1-mw-EhN" firstAttribute="top" secondItem="HqW-IC-OeG" secondAttribute="bottom" constant="40" id="Pjy-hB-3ZE"/>
+                            <constraint firstItem="HqW-IC-OeG" firstAttribute="top" secondItem="dsJ-hs-sSF" secondAttribute="bottom" constant="40" id="Wdt-bo-HXD"/>
+                            <constraint firstItem="HqW-IC-OeG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yU4-oP-YGf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="result" destination="6e1-mw-EhN" id="nop-v0-eTo"/>
+                        <outlet property="year" destination="dsJ-hs-sSF" id="dKs-Vu-qae"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="523"/>
+        </scene>
+    </scenes>
+</document>
