@@ -8,7 +8,7 @@ A simple dumb App for the Chinese zodiac.
 ***
 Copyright (c) 2015 Lynn Li
 
-See the LICENSE（LICENSE.txt） file for license rights and limitations (WTFPL).
+See the [LICENSE](LICENSE.txt "LICENSE.txt") file for license rights and limitations ([WTFPL](http://www.wtfpl.net) "official site").
 
 ###Snapshots
 
