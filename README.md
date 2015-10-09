@@ -13,14 +13,14 @@ See the [LICENSE](LICENSE.txt "LICENSE.txt") file for license rights and limitat
 ###Snapshots
 
 ***
-![Pic](launchPic.png "launch Pic")
+![Pic](snapshots\launchPic.png "launch Pic")
+***
+***
+![Pic](snapshots\case2.png "case 2")
+***
+***
+![Pic](snapshots\case1.png "case 1")
 ***
 
-***
-![Pic](case1.png "case 1")
-***
 
-***
-![Pic](case2.png "case 2")
-***
 
