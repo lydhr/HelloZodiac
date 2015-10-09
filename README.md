@@ -10,6 +10,6 @@ See the [LICENSE](LICENSE.txt "LICENSE.txt") file for license rights and limitat
 
 ##Snapshots
 ***
-Launch Pic | Case 1 |Case 2 |
------------- | 
-![Pic](snapshots/launchPic.png "launch Pic")|![Pic](snapshots/case2.png "case 2")|![Pic](snapshots/case1.png "case 1")|
+Launch Pic | Case 1 |Case 2 
+-----------| ------ | -----
+![Pic](snapshots/launchPic.png "launch Pic")|![Pic](snapshots/case2.png "case 2")|![Pic](snapshots/case1.png "case 1")
